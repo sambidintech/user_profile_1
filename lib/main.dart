@@ -5,10 +5,10 @@ import 'package:user_profile/presentation/Intro/splash.dart';
 import 'package:user_profile/presentation/User_Post/user_post.dart';
 import 'package:user_profile/presentation/User_Profile/user_profile.dart';
 import 'package:user_profile/presentation/home/homepage.dart';
-import 'package:user_profile/presentation/provider/post_provider.dart';
+import 'package:user_profile/provider/post_provider.dart';
 
 
-Future<void> main() async{
+void main(){
   runApp(
       ChangeNotifierProvider(create: (context)=>PostProvider(),
       child: const MyApp()));

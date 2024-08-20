@@ -1,4 +1,4 @@
-class AppImages{
+abstract class AppImages{
 
 
   static const String basePath='assets/images/';

@@ -5,7 +5,7 @@ import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
 import 'package:user_profile/configuration/assets/url.dart';
 import 'package:user_profile/presentation/User_Post/post.dart';
-import 'package:user_profile/presentation/provider/post_provider.dart';
+import 'package:user_profile/provider/post_provider.dart';
 
 class UserPost extends StatefulWidget {
   const UserPost({super.key});
